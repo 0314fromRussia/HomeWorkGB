@@ -64,12 +64,13 @@ class ViewController: UIViewController {
 
 //Mark: - IBAction
     
-    @IBAction func registrationDidPressed(_ sender: Any) {
+    @IBAction func registrationDidPressed(_ sender: UIButton) {
         if loginTextField.text == "admin" && passwordTextField.text == "12345" {
             print("You are able to login")
         }else{
             print("not able to login")
         }
     }
+    
 }
 
